@@ -1,0 +1,5 @@
+@media screen and (max-width: 100px) {
+	#lottie {
+		display: none !important;
+	}
+}
