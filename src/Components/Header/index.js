@@ -4,12 +4,15 @@ import './index.css';
 
 export default function Header() {
 	return (
-		<div className="header">
-			<nav className="flex flex-row justify-between">
-				<Link to="/" className="p-4">
-					<div className="text-xl">JM</div>
+		<div
+			className="header"
+			style={{ backgroundColor: '#dddddd', padding: '3rem' }}
+		>
+			<nav className="flex flex-row justify-between items-center">
+				<Link to="/">
+					<div className="text-4xl font-bold">JM</div>
 				</Link>
-				<ul className=" flex flex-row gap-10 justify-center content-between p-4">
+				<ul className=" flex flex-row gap-10 justify-center content-between">
 					<li>
 						<Link to="/">{`<Home />`}</Link>
 					</li>

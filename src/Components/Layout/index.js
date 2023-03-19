@@ -5,7 +5,7 @@ import Footer from '../Footer';
 
 export default function Layout() {
 	return (
-		<div className="bg-[url('/src/Assets/side-wave_background.svg')]">
+		<div className="bg-[url('/src/Assets/side-wave_background5.svg')]">
 			<>
 				<Header />
 				<Outlet />
